@@ -1,6 +1,6 @@
 <template>
-  <div class="ress">
-    <!-- <h2>Ress</h2> -->
+  <div class="form">
+    <!-- <h2>form</h2> -->
     <h3>כמה שאלות</h3>
     <v-card elevation="4">
       <!-- <v-carousel hide-delimiters :show-arrows="false">
@@ -27,7 +27,7 @@
       <v-carousel
         v-model="model"
         height="400"
-        progress="#8186e8"
+        progform="#8186e8"
         hide-delimiters
         :show-arrows="false"
         style="direction: rtl; transform: matrix(-1, 0, 0, 1, 0, 0)"
@@ -98,7 +98,7 @@ export default {
 </script>
 
 <style lang="scss">
-.ress {
+.form {
   display: block;
   width: 92%;
   .v-card {
