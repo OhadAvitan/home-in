@@ -2,14 +2,15 @@
   <v-app>
     <v-main>
       <Header />
-      <Home />
+      <!-- <Home /> -->
+       <router-view></router-view>
       <Footer />
     </v-main>
   </v-app>
 </template>
 
 <script setup>
-// import Header from './components/Header.vue';
+import Home from './views/Home.vue';
 
 //
 </script>

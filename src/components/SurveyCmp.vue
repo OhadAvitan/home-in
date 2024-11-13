@@ -1,5 +1,5 @@
 <template>
-  <div class="form">
+  <div class="survey-cmp">
     <!-- <h2>form</h2> -->
     <h3>כמה שאלות</h3>
     <v-card elevation="4">
@@ -98,7 +98,7 @@ export default {
 </script>
 
 <style lang="scss">
-.form {
+.survey-cmp {
   display: block;
   width: 92%;
   .v-card {
