@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="header-space"></div>
     <SurveyCmp />
   </div>
 </template>
@@ -16,6 +17,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+.header-space {
+    width: 100vw;
+    height: 70px;
+  }
 </style>
