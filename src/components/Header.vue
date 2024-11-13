@@ -15,16 +15,20 @@
       </div>
       <!-- <div class="px-2 my-auto">הום</div> -->
       <v-img :src="imgSrc" class="logo"></v-img>
+      <!-- <v-img :src="asd" class="logo"></v-img> -->
       <!-- <img :src="imgSrc" class="logo" alt="" /> -->
     </div>
   </div>
 </template>
 
 <script>
+// import asd from '@/assets/logohi.png'
+
 export default {
   data() {
     return {
-      imgSrc: "/favicon.ico",
+      imgSrc: "favicon.ico",
+      // imgSrc1: "/favicon.ico",
       //   imgSrc: "/public/favicon.ico",
     };
   },
