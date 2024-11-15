@@ -2,6 +2,7 @@
   <div class="home d-flex align-center flex-column">
     <div class="header-space"></div>
     <div class="hero d-flex flex-column">
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/+972506545074"><img alt="Chat on WhatsApp" src="/src/assets/WhatsAppButtonGreenMedium.svg" /></a>
       <!-- <v-img :src="myImg"></v-img> -->
       <h1 class="px-7">
         העתיד שלך מתחיל
@@ -112,8 +113,10 @@ export default {
     width: 100vw;
     height: 600px;
     background-image: url("@/assets/image1.png");
-    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    // ---------
     filter: blur(0px);
     animation-name: bluring;
     animation-duration: 3.1s;
