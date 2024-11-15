@@ -1,6 +1,9 @@
 <template>
   <div>
     <div class="header-space"></div>
+    <div>
+      <h2>gagagagagagaga</h2>
+    </div>
     <SurveyCmp />
   </div>
 </template>
